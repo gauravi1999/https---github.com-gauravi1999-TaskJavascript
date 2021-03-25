@@ -5,7 +5,7 @@ function display(num,callback) {
     
     function factorial(x) {
   if (x < 0) {
-           return  (0);}
+           console.log("no. should be positive");}
       else if (x == 0) {
           return (1);}
       else {
@@ -14,4 +14,4 @@ function display(num,callback) {
   return (result);
       }
     }
-      display(5, factorial);
+      display(6, factorial);
