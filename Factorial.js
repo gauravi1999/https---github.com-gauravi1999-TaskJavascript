@@ -1,5 +1,5 @@
 function display(num,callback) {
-  var a = callback(num);
+  let a = callback(num);
       console.log("Factorial is",a);
     }
     
@@ -9,8 +9,8 @@ function display(num,callback) {
       else if (x == 0) {
           return (1);}
       else {
-  var result;
-        result = x * factorial(x - 1);
+ 
+      let  result = x * factorial(x - 1);
   return (result);
       }
     }
